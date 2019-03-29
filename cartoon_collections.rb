@@ -14,8 +14,8 @@ end
   # code an argument here
   # Your code here
 
-def long_planeteer_calls
-  return
+def long_planeteer_calls(array)
+  return array.any?{|item| item.length > 4}
   # code an argument here
   # Your code here
 end
